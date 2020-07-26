@@ -1,0 +1,22 @@
+{
+  "name": "practice1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
